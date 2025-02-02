@@ -9,7 +9,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load dataset
-df = pd.read_csv("c:\\Users\\asd\\Downloads\\covid_toy.csv")
+df = pd.read_csv("covid_toy.csv")
 df = df.dropna()
 
 # Label Encoding for Categorical Features
